@@ -268,7 +268,7 @@ game_state = "new_game"
 while game_state != "quit":
 
     if game_state == "new_game":
-        value_matrix = create_matrix(expert_difficulty[0], expert_difficulty[1], expert_difficulty[2])
+        value_matrix = create_matrix(intermediate_difficulty[0], intermediate_difficulty[1], intermediate_difficulty[2])
         state_matrix = [["H" for j in range(len(value_matrix[i]))] for i in range(len(value_matrix))]
 
         matrix_lines = len(value_matrix)

@@ -20,6 +20,10 @@ Tile Right-Click -> Flag Tile, Unflag Tile
 Face Left-Click -> New Game  
 Face Right-Click -> Start Auto-solve, Pause Auto-solve, Resume Auto-solve
 
+## Screenshots
+
+![](https://imgur.com/zikE15p)
+
 ## Built With
 
 * [Python 3.8](https://www.python.org/) - Programming Language

@@ -22,7 +22,7 @@ Face Right-Click -> Start Auto-solve, Pause Auto-solve, Resume Auto-solve
 
 ## Screenshots
 
-![](https://imgur.com/zikE15p)
+![](https://i.imgur.com/zikE15p.png)
 
 ## Built With
 

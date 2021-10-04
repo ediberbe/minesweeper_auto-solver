@@ -11,6 +11,7 @@ Before you continue, ensure you have met the following requirements:
 ## Installation
 
 No installation needed. To start program run main.py script.
+If on windows you can also double click on main.bat
 
 ## Controls
 

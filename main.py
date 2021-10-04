@@ -252,7 +252,7 @@ def solve_case_3():
 
 pygame.init()
 pygame.display.set_caption("Minesweeper")
-icon = pygame.image.load("tile_bomb.png")
+icon = pygame.image.load("assets/tile_bomb.png")
 pygame.display.set_icon(icon)
 
 # MAIN GAME LOOP
@@ -287,7 +287,7 @@ while game_state != "quit":
     while game_state == "continue_game":
 
         screen.fill((192, 192, 192))
-        face_image = pygame.image.load("face_smile.png")
+        face_image = pygame.image.load("assets/face_smile.png")
         screen.blit(face_image, (matrix_columns * 32 // 2 - 26, header - 58))
 
         # EVENT
@@ -347,17 +347,17 @@ while game_state != "quit":
             for j in range(matrix_columns):
 
                 if state_matrix[i][j] == "H":
-                    tile_image = pygame.image.load("tile_hidden.png")
+                    tile_image = pygame.image.load("assets/tile_hidden.png")
 
                 elif state_matrix[i][j] == "S":
                     if isinstance(value_matrix[i][j], int):
-                        tile_image = pygame.image.load("tile_" + str(value_matrix[i][j]) + ".png")
+                        tile_image = pygame.image.load("assets/tile_" + str(value_matrix[i][j]) + ".png")
 
                 elif state_matrix[i][j] == "X":
-                    tile_image = pygame.image.load("tile_bomb_red.png")
+                    tile_image = pygame.image.load("assets/tile_bomb_red.png")
 
                 elif state_matrix[i][j] == "F":
-                    tile_image = pygame.image.load("tile_flag.png")
+                    tile_image = pygame.image.load("assets/tile_flag.png")
 
                 screen.blit(tile_image, (j * 32, header + i * 32))
 
@@ -366,7 +366,7 @@ while game_state != "quit":
     while game_state == "lose":
 
         screen.fill((192, 192, 192))
-        face_image = pygame.image.load("face_lose.png")
+        face_image = pygame.image.load("assets/face_lose.png")
         screen.blit(face_image, (matrix_columns * 32 // 2 - 26, header - 58))
 
         # EVENT
@@ -390,16 +390,16 @@ while game_state != "quit":
             for j in range(matrix_columns):
 
                 if isinstance(value_matrix[i][j], int):
-                    tile_image = pygame.image.load("tile_" + str(value_matrix[i][j]) + ".png")
+                    tile_image = pygame.image.load("assets/tile_" + str(value_matrix[i][j]) + ".png")
 
                 elif state_matrix[i][j] == "F":
-                    tile_image = pygame.image.load("tile_flag.png")
+                    tile_image = pygame.image.load("assets/tile_flag.png")
 
                 elif value_matrix[i][j] == "X":
-                    tile_image = pygame.image.load("tile_bomb_red.png")
+                    tile_image = pygame.image.load("assets/tile_bomb_red.png")
 
                 elif value_matrix[i][j] == "B":
-                    tile_image = pygame.image.load("tile_bomb.png")
+                    tile_image = pygame.image.load("assets/tile_bomb.png")
 
                 screen.blit(tile_image, (j * 32, header + i * 32))
 
@@ -408,7 +408,7 @@ while game_state != "quit":
     while game_state == "win":
 
         screen.fill((192, 192, 192))
-        face_image = pygame.image.load("face_win.png")
+        face_image = pygame.image.load("assets/face_win.png")
         screen.blit(face_image, (matrix_columns * 32 // 2 - 26, header - 58))
 
         # EVENT
@@ -432,16 +432,16 @@ while game_state != "quit":
             for j in range(matrix_columns):
 
                 if isinstance(value_matrix[i][j], int):
-                    tile_image = pygame.image.load("tile_" + str(value_matrix[i][j]) + ".png")
+                    tile_image = pygame.image.load("assets/tile_" + str(value_matrix[i][j]) + ".png")
 
                 elif state_matrix[i][j] == "F":
-                    tile_image = pygame.image.load("tile_flag.png")
+                    tile_image = pygame.image.load("assets/tile_flag.png")
 
                 elif value_matrix[i][j] == "X":
-                    tile_image = pygame.image.load("tile_bomb_red.png")
+                    tile_image = pygame.image.load("assets/tile_bomb_red.png")
 
                 elif value_matrix[i][j] == "B":
-                    tile_image = pygame.image.load("tile_hidden.png")
+                    tile_image = pygame.image.load("assets/tile_hidden.png")
 
                 screen.blit(tile_image, (j * 32, header + i * 32))
 
@@ -460,7 +460,7 @@ while game_state != "quit":
         while game_state == "solve":
 
             screen.fill((192, 192, 192))
-            face_image = pygame.image.load("face_solve.png")
+            face_image = pygame.image.load("assets/face_solve.png")
             screen.blit(face_image, (matrix_columns * 32 // 2 - 26, header - 58))
 
             # EVENT
@@ -545,19 +545,19 @@ while game_state != "quit":
                 for j in range(matrix_columns):
 
                     if state_matrix[i][j] == "H":
-                        tile_image = pygame.image.load("tile_hidden.png")
+                        tile_image = pygame.image.load("assets/tile_hidden.png")
 
                     elif state_matrix[i][j] == "S":
                         if isinstance(value_matrix[i][j], int):
-                            tile_image = pygame.image.load("tile_" + str(value_matrix[i][j]) + ".png")
+                            tile_image = pygame.image.load("assets/tile_" + str(value_matrix[i][j]) + ".png")
                         elif value_matrix[i][j] == "B":
-                            tile_image = pygame.image.load("tile_bomb.png")
+                            tile_image = pygame.image.load("assets/tile_bomb.png")
 
                     elif state_matrix[i][j] == "X":
-                        tile_image = pygame.image.load("tile_bomb_red.png")
+                        tile_image = pygame.image.load("assets/tile_bomb_red.png")
 
                     elif state_matrix[i][j] == "F":
-                        tile_image = pygame.image.load("tile_flag.png")
+                        tile_image = pygame.image.load("assets/tile_flag.png")
 
                     screen.blit(tile_image, (j * 32, header + i * 32))
 

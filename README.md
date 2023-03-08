@@ -5,19 +5,19 @@ Recreation of the Minesweeper game with an integrated auto-solver.
 
 Before you continue, ensure you have met the following requirements:
 
-- You have installed a compatible [Python](https://www.python.org/downloads/) version.  
-- You have installed a compatible [PyGame](https://pypi.org/project/pygame/) version. ```pip install pygame```
+* You have installed a compatible [Python](https://www.python.org/downloads/) version.  
+* You have installed a compatible [PyGame](https://pypi.org/project/pygame/) version. ```pip install pygame```
 
 ## Start
 
-To start program run main.py script using Python. If using windows you can double click on main.bat
+To start program run main.py script using Python. If using Windows you can double click on main.bat
 
 ## Controls
 
-Tile Left-CLick -> Reveal Tile  
+Tile Left-CLick  -> Reveal Tile  
 Tile Right-Click -> Flag Tile, Unflag Tile
 
-Face Left-Click -> New Game  
+Face Left-Click  -> New Game  
 Face Right-Click -> Start Auto-solve, Pause Auto-solve, Resume Auto-solve
 
 ## Screenshots

@@ -1,6 +1,8 @@
 # minesweeper_auto-solver
 Recreation of the Minesweeper game with an integrated auto-solver.
 
+![](https://i.imgur.com/zikE15p.png)
+
 ## Prerequisites
 
 Before you continue, ensure you have met the following requirements:
@@ -19,10 +21,6 @@ Tile Right-Click -> Flag Tile, Unflag Tile
 
 Face Left-Click  -> New Game  
 Face Right-Click -> Start Auto-solve, Pause Auto-solve, Resume Auto-solve
-
-## Screenshots
-
-![](https://i.imgur.com/zikE15p.png)
 
 ## Built With
 

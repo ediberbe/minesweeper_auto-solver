@@ -5,13 +5,12 @@ Recreation of the Minesweeper game with an integrated auto-solver.
 
 Before you continue, ensure you have met the following requirements:
 
-* You have installed a compatible Python version.
-* You have installed a compatible PyGame version.
+- You have installed a compatible [Python](https://www.python.org/downloads/) version.  
+- You have installed a compatible [PyGame](https://pypi.org/project/pygame/) version. ```pip install pygame```
 
-## Installation
+## Start
 
-No installation needed. To start program run main.py script.  
-If on windows you can also double click on main.bat
+To start program run main.py script using Python. If using windows you can double click on main.bat
 
 ## Controls
 
@@ -29,7 +28,6 @@ Face Right-Click -> Start Auto-solve, Pause Auto-solve, Resume Auto-solve
 
 * [Python 3.8](https://www.python.org/) - Programming Language
 * [PyGame 2.0.0.dev6](https://www.pygame.org/docs/) - Python wrapper for SDL
-* [PyCharm 2019.2.3](https://www.jetbrains.com/pycharm/) - The Python IDE used
 
 ## Acknowledgments
 
